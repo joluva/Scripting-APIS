@@ -3,6 +3,26 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Archivos de entorno
+.env
+.env.local
+
+# Dependencias
+node_modules/
+venv/
+
+# Logs y archivos temporales
+*.log
+*.tmp
+
+# IDE/Editores
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
 # User-specific files
 *.rsuser
 *.suo
