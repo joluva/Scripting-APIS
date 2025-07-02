@@ -6,7 +6,7 @@ print(f"La suma de los valores 10 + 3 da como resultado float: {add_number}\n")
 print("-------------------------------------------------------------------\n")
 
 # Calcular el cociente de 10 / 3 y mostrarlo como entero
-div_number=int(10 / 3)
+div_number=int(10 // 3)
 print("-------------------------------------------------------------------\n")
 print(f"La cociente entre 10 / 3 da como resultado int: {div_number}\n")
 print("-------------------------------------------------------------------\n")
